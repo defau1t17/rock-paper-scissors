@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="mainStage" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: #3d3d3d; -fx-border-radius: 7;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane prefHeight="120.0" prefWidth="600.0" style="-fx-background-color: #9e7328;">
+         <children>
+            <Label layoutX="67.0" layoutY="39.0" text="Камень Ножницы Бумага" textFill="WHITE">
+               <font>
+                  <Font name="Sitka Text" size="37.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <Label layoutX="51.0" layoutY="134.0" text="Добро пожаловать в игру" textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Medium" size="45.0" />
+         </font>
+      </Label>
+      <Label layoutX="5.0" layoutY="177.0" prefHeight="235.0" prefWidth="593.0" textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Medium" size="37.0" />
+         </font>
+      </Label>
+      <Text fill="WHITE" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Чтобы начать нажмите на кнопку снизу" textAlignment="CENTER" wrappingWidth="600.0">
+         <font>
+            <Font name="Franklin Gothic Medium" size="38.0" />
+         </font>
+      </Text>
+      <Button fx:id="startButton" layoutX="104.0" layoutY="412.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="396.0" style="-fx-background-color: #9e7328; -fx-background-radius: 17;" text="Нажмите меня!" textFill="WHITE">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
